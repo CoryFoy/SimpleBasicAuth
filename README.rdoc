@@ -1,0 +1,5 @@
+This is a very basic Rails app that simply challenges the user using basic auth, and returns "Hello World" if successful.
+
+The credentials are username "hello" and password "world"
+
+To use, clone this repository, cd into the directory, run `bundle install` then `rails s`
