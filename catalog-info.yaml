@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: SimpleBasicAuthDos
-  description: Basic Auth Project to Test Integration
+  name: SimpleBasicAuth
+  description: Dos Basic Auth Project to Test Integration
   annotations:
     circleci.com/project-slug: github/Betterment/retail
   links:
