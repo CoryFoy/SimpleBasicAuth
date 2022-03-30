@@ -4,6 +4,7 @@ metadata:
   name: SimpleBasicAuth
   annotations:
     github.com/project-slug: CoryFoy/SimpleBasicAuth
+    circleci.com/project-slug: github/Betterment/retail
 spec:
   type: other
   lifecycle: unknown
