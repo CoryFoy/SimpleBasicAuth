@@ -2,10 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: SimpleBasicAuth
+  description: Basic Auth Project to Test Integration
   annotations:
     github.com/project-slug: CoryFoy/SimpleBasicAuth
     circleci.com/project-slug: github/Betterment/retail
+  links:
+    - url: https://www.betterment.com
+      title: My Dashboard
+      icon: dashboard
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
   owner: CoryFoy
