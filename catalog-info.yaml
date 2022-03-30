@@ -12,4 +12,5 @@ metadata:
       icon: dashboard
 spec:
   type: service
+  lifecycle: unknown
   owner: CoryFoy
