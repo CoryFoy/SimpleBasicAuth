@@ -4,7 +4,7 @@ metadata:
   name: SimpleBasicAuth
   description: Basic Auth Project to Test Integration
   annotations:
-    github.com/project-slug: CoryFoy/SimpleBasicAuth
+    github.com/project-slug: Betterment/retail
     circleci.com/project-slug: github/Betterment/retail
   links:
     - url: https://www.betterment.com
