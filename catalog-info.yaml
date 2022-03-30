@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SimpleBasicAuth
+  annotations:
+    github.com/project-slug: CoryFoy/SimpleBasicAuth
+spec:
+  type: other
+  lifecycle: unknown
+  owner: CoryFoy
