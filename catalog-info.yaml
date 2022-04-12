@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: cory.foy@betterment.com
   definition:
-    $text: http://localhost:64246/retail.json
+    $text: https://github.com/CoryFoy/SimpleBasicAuth/blob/master/retail.json
