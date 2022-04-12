@@ -1,15 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: SimpleBasicAuth
-  description: Dos Basic Auth Project to Test Integration
-  annotations:
-    circleci.com/project-slug: github/Betterment/retail
-  links:
-    - url: https://www.betterment.com
-      title: My Dashboard
-      icon: dashboard
+  name: retail
+  description: The Retail API
 spec:
-  type: service
-  lifecycle: unknown
-  owner: CoryFoy
+  type: openapi
+  lifecycle: production
+  owner: cory.foy@betterment.com
+  definition:
+    $text: http://localhost:64246/retail.json
